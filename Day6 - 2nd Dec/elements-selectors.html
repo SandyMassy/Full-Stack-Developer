@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elements Selectors</title>
+    <style>
+p::first-letter{
+    font-size: 100px;
+    font-style: italic;
+    color: brown;
+}
+h2::before{
+    content: "Start";
+    color: brown;
+}
+
+p::after{
+    content: "[End]";
+    color: brown;
+}
+    </style>
+</head>
+<body>
+    <p>This is Para first</p>
+    <p>This para second</p>
+    <h2>This is 2nd heading</h2>
+</body>
+</html>
